@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Опитування</title>
+</head>
+<body>
+    <header>
+        <h1>Опитування про космос</h1>
+        <nav>
+            <a href="index.html">На головну</a>
+        </nav>
+    </header>
+
+    <form method="POST" action="https://formspree.io/petia.com69@gmail.com">
+        <br>
+        <label>Ваше ім'я
+            <input type="text" placeholder="Ім'я" name="name">
+        </label>
+        <br>
+        <label>Прізвище
+            <input type="text" placeholder="Прізвище" name="surname">
+        </label>
+        <br>
+        <label for="email">Ваш email</label>
+        <input type="email" placeholder="email" id="email" name="email">
+        <br>
+        <label>Стать</label>
+        <label>
+            <input type="radio" name="gender" value="male">Чоловіча
+        </label>
+        <label>
+            <input type="radio" name="gender" value="female">Жіноча
+        </label>
+        <label>
+            <input type="radio" name="gender" value="other">Інша
+        </label>
+        <label>
+            <input type="radio" name="gender" value="other">Рептилоїд
+        </label>
+
+        <br>
+        <label>1. Чи були ви у космосі?</label>
+        <label>
+            <input type="radio" name="answer1" value="yes">Так
+        </label>
+        <label>
+            <input type="radio" name="answer1" value="no">Ні
+        </label>
+        <label>
+            <input type="radio" name="answer1" value="other">Не пам'ятаю
+        </label>
+
+        <br>
+        <label>2. Чи плануєте ви полетіти у космос наступного літа?</label>
+        <label>
+            <input type="radio" name="answer2" value="yes">Так
+        </label>
+        <label>
+            <input type="radio" name="answer2" value="no">Ні
+        </label>
+        <label>
+            <input type="radio" name="answer2" value="other">Можливо
+        </label>
+
+        <br>
+        <label>3. Звідки ви дізнались, що таке космос?</label>
+        <label>
+            <input type="radio" name="answer3" value="yes">З телебачення
+        </label>
+        <label>
+            <input type="radio" name="answer3" value="no">Із книг
+        </label>
+        <label>
+            <input type="radio" name="answer3" value="other">Із "Зоряних війн"
+        </label>
+
+        <br>
+        <label>4. Що ви візьмете в першу чергу з собою у космос?</label>
+        <label>
+            <input type="radio" name="answer4" value="yes">Їжу не в тюбику
+        </label>
+        <label>
+            <input type="radio" name="answer4" value="no">Бластер
+        </label>
+        <label>
+            <input type="radio" name="answer4" value="other">Куртку, бо там холодно
+        </label>
+
+        <br>
+        <input type="submit">
+    </form>
+</body>
+</html>
